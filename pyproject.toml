@@ -3,7 +3,9 @@ name = "test-deploy"
 version = "1.0.0"
 requires-python = ">=3.10"
 dependencies = [
-    "Django>=5.2,<6.0"
+    "Django>=5.2,<6.0",
+    "supabase",
+    "python-dotenv"
 ]
 
 [tool.vercel.scripts]
